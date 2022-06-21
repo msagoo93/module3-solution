@@ -55,17 +55,19 @@ body{
     float: left;
   }
   #main-content{
-    display:block;
+    display: inline-block;
     background-color: gray;
     height: 150px;
-    margin:10%;
+    margin:2%;
     overflow:visible;
+    border: 2px solid black;
   }
   
+  
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 393px) {
     .header a {
-      float: none;
+      float: left;
       display: block;
       text-align: left;
     }
@@ -82,5 +84,68 @@ body{
       button.align-right{
         float: right;
       }
+      #main-content{
+        visibility: hidden;
+      }
   }
   
+  @media screen and (min-width: 393px) {
+    button{
+      visibility: hidden;
+    }
+  }
+
+  @media screen and (max-width:1500px){
+    #main-content{
+      display: inline-block;
+    background-color: gray;
+    height: 200px;
+    margin:2%;
+    overflow:visible;
+    border: 2px solid black;
+    }
+  }
+
+  @media screen and (max-width: 870px){
+    #main-content{
+      display: inline-block;
+    background-color: gray;
+    height: 250px;
+    margin:2%;
+    overflow:visible;
+    border: 2px solid black;
+    }
+  }
+
+  @media screen and (max-width: 640px){
+    #main-content{
+      display: inline-block;
+    background-color: gray;
+    height: 300px;
+    margin:2%;
+    overflow:visible;
+    border: 2px solid black;
+    }
+  }
+
+  @media screen and (max-width: 540px){
+    #main-content{
+      display: inline-block;
+    background-color: gray;
+    height: 350px;
+    margin:2%;
+    overflow:visible;
+    border: 2px solid black;
+    }
+  }
+
+  @media screen and (max-width: 430px){
+    #main-content{
+      display: inline-block;
+    background-color: gray;
+    height: 450px;
+    margin:2%;
+    overflow:visible;
+    border: 2px solid black;
+    }
+  }
