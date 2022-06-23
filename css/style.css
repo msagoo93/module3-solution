@@ -2,11 +2,20 @@ body{
     background-color: white;
     margin:0%;
 }
+#top{
+  
+}
 .header {
     overflow: hidden;
     background-color: grey;
     padding: 20px 10px;
   }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
 
   h1{
     color: black;
@@ -19,6 +28,33 @@ body{
     text-align: center;
     font-size: 25px;
   }
+  .nav{
+    margin:0;
+    padding:0;
+  }
+
+  .navbar{
+    font-size:25px;
+    text-align: center;
+    margin:0;
+    padding:0;
+
+  }
+
+  li {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.menu-item {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  color: black;
+  display: block;
+}
   
   /* Style the header links */
   .header a {
@@ -62,10 +98,17 @@ body{
     overflow:visible;
     border: 2px solid black;
   }
+
+  .collapse.in {
+    display: block;
+}
+.collapse{
+  display:none;
+}
   
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 393px) {
+  @media screen and (max-width: 768px) {
     .header a {
       float: left;
       display: block;
@@ -84,12 +127,9 @@ body{
       button.align-right{
         float: right;
       }
-      #main-content{
-        visibility: hidden;
-      }
   }
   
-  @media screen and (min-width: 393px) {
+  @media screen and (min-width: 768px) {
     button{
       visibility: hidden;
     }
@@ -115,6 +155,7 @@ body{
     overflow:visible;
     border: 2px solid black;
     }
+    
   }
 
   @media screen and (max-width: 640px){
@@ -147,5 +188,11 @@ body{
     margin:2%;
     overflow:visible;
     border: 2px solid black;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    ul{
+      visibility: hidden;
     }
   }
