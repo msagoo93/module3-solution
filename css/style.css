@@ -5,11 +5,7 @@ body{
 #top{
 
 }
-#top{
-  
-}
 .header {
-<<<<<<< HEAD
   overflow: hidden;
   background-color: grey;
   padding: 20px 10px;
@@ -113,59 +109,6 @@ display:none;
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 768px) {
-=======
-    overflow: hidden;
-    background-color: grey;
-    padding: 20px 10px;
-  }
-  .navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
-}
-
-  h1{
-    color: black;
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  h2{
-    color: black;
-    text-align: center;
-    font-size: 25px;
-  }
-  .nav{
-    margin:0;
-    padding:0;
-  }
-
-  .navbar{
-    font-size:25px;
-    text-align: center;
-    margin:0;
-    padding:0;
-
-  }
-
-  li {
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.menu-item {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: white;
-  border-bottom: 1px solid black;
-  color: black;
-  display: block;
-}
-  
-  /* Style the header links */
->>>>>>> ff8b9a5d96026e505498ae50050a33540ada107b
   .header a {
     float: left;
     display: block;
@@ -195,7 +138,6 @@ display:none;
 @media screen and (max-width:1500px){
   #main-content{
     display: inline-block;
-<<<<<<< HEAD
   background-color: gray;
   height: 200px;
   margin:2%;
@@ -212,24 +154,8 @@ display:none;
   margin:2%;
   overflow:visible;
   border: 2px solid black;
-=======
-    background-color: gray;
-    height: 150px;
-    margin:2%;
-    overflow:visible;
-    border: 2px solid black;
->>>>>>> ff8b9a5d96026e505498ae50050a33540ada107b
   }
-
-  .collapse.in {
-    display: block;
-}
-.collapse{
-  display:none;
-}
   
-  
-<<<<<<< HEAD
 }
 
 @media screen and (max-width: 640px){
@@ -270,94 +196,3 @@ display:none;
     visibility: hidden;
   }
 }
-=======
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 768px) {
-    .header a {
-      float: left;
-      display: block;
-      text-align: left;
-    }
-    .header-left {
-      float: none;
-    }
-    div.menu-bar{
-        width: 35px;
-      height: 5px;
-      background-color: black;
-      margin: 6px 0;
-     
-      }
-      button.align-right{
-        float: right;
-      }
-  }
-  
-  @media screen and (min-width: 768px) {
-    button{
-      visibility: hidden;
-    }
-  }
-
-  @media screen and (max-width:1500px){
-    #main-content{
-      display: inline-block;
-    background-color: gray;
-    height: 200px;
-    margin:2%;
-    overflow:visible;
-    border: 2px solid black;
-    }
-  }
-
-  @media screen and (max-width: 870px){
-    #main-content{
-      display: inline-block;
-    background-color: gray;
-    height: 250px;
-    margin:2%;
-    overflow:visible;
-    border: 2px solid black;
-    }
-    
-  }
-
-  @media screen and (max-width: 640px){
-    #main-content{
-      display: inline-block;
-    background-color: gray;
-    height: 300px;
-    margin:2%;
-    overflow:visible;
-    border: 2px solid black;
-    }
-  }
-
-  @media screen and (max-width: 540px){
-    #main-content{
-      display: inline-block;
-    background-color: gray;
-    height: 350px;
-    margin:2%;
-    overflow:visible;
-    border: 2px solid black;
-    }
-  }
-
-  @media screen and (max-width: 430px){
-    #main-content{
-      display: inline-block;
-    background-color: gray;
-    height: 450px;
-    margin:2%;
-    overflow:visible;
-    border: 2px solid black;
-    }
-  }
-
-  @media screen and (min-width: 768px){
-    ul{
-      visibility: hidden;
-    }
-  }
->>>>>>> ff8b9a5d96026e505498ae50050a33540ada107b
